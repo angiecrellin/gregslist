@@ -20,7 +20,8 @@ header {
 }
 
 .top-nav {
-	position: absolute;
+	position: fixed;
+	float: right;
 	right: 10px;
 	top: 10px;
 }
