@@ -1,16 +1,51 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <title>GregsList Exercise</title>
     <meta charset="utf-8" name="description" content="Old School Classifieds">
+    <title>GregsList Exercise</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="css/index.css" />
 </head>
 
 <body>
-    <main>
-        <nav>
+    <header>
+    	<h1>Greg's List</h1>
+        <nav class="top-nav">
+        	<a href="" class="link-nav">Post</a>
+        	<a href="" class="link-nav">Account</a>
         </nav>
-    </main>
-</body>
-
+    </header>
+ 	<section class=search-jobs>
+ 		<form action="#">
+ 		<label for="search">Search Jobs</label>
+ 		<input type="text" class="search" placeholder="Developer, Designer, Internship..."/>
+ 		<input type="image" class="magnifying-glass" src="images/magnifying-glass.png" alt="Search" role="button">
+ 		</form>
+ 	</section>
+ 	<nav class="pages">
+ 		<a class="pages-backward">&lt; prev</a>
+		<span class="listing-number">1 to 100 of 179</span>
+ 		<a class="pages-forward">next &gt;</a>
+ 	</nav>
+	<main>
+		<ul class="postings">
+			<li class="post">
+				<span class="post-date">June 22</span>
+				<a href="" class="post-title">Technical Project Manager</a>
+				<span class="post-location">Midtown East</span>
+			</li>
+			<li class="post">
+				<span class="post-date">June 21</span>
+				<a href="" class="post-title">Frontend Developer</a>
+				<span class="post-location">Soho</span>
+			</li>
+			<li class="post">
+				<span class="post-date">June 20</span>
+				<a href="" class="post-title">Senior Python Developer</a>
+				<span class="post-location">Flatiron</span>
+			</li>
+		</ul>
+	</main>
+ </body>	
 </html>

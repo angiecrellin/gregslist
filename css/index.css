@@ -1,0 +1,116 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 100px;
+	font-family: 'Roboto', sans-serif;
+}
+
+
+header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	padding-left: 10px;
+	background-color: #EEEEEE;
+	border-bottom: 1px solid #DDDDDD;
+}
+
+.top-nav {
+	position: absolute;
+	right: 10px;
+	top: 10px;
+}
+
+.link-nav {
+	font-size: 18px;
+	padding: 0 6px;
+}
+
+a {
+	text-decoration: none;
+}
+
+h1{
+	font-size: 18px;
+}
+
+.search-jobs {
+	margin-bottom: 30px;
+}
+
+label {
+  display: block;
+}
+
+input {
+	vertical-align: bottom;
+}
+
+.search {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 30px;
+  height: 30px;
+  border: 1px solid #DDDDDD;
+  border-radius: 3px;
+  padding: 0 5px 0 8px;
+  width: 400px;
+}
+
+.magnifying-glass {
+  font-size: 18px;
+  margin-top: 10px;
+  width: 40px;
+  height: 30px;
+  padding: 2px 6px 3px 6px;
+  background-color: white;
+  border: 1px solid #DDDDDD;
+  border-radius: 3px;
+}
+
+.pages {
+	display: inline-block;
+	margin-bottom:30px;
+	border: 1px solid #DDDDDD;
+	border-radius: 3px;
+}
+
+.pages-backward, .pages-forward{
+	font-size: 16px;
+	display: inline-block;
+	border-radius: 3px;
+	padding: 8px 15px;
+}
+
+.listing-number {
+	font-size: 16px;
+	padding: 8px 25px;
+	border-left: 1px solid #DDDDDD;
+	border-right: 1px solid #DDDDDD;
+}
+
+.postings {
+	padding: 0;
+}
+
+.post {
+	list-style:none;
+	margin-bottom: 15px;
+}
+
+.post-title {
+	margin-right: 10px;
+	margin-left: 10px;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+
+
+
+
